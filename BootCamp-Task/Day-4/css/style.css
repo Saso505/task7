@@ -1,0 +1,99 @@
+
+body {
+    box-sizing:border-box;
+    margin: 0;
+    font-family: Arial;
+}
+
+.parent {
+    background-color: rgba(0,0,0,0.9);
+    display: flex;
+    color: #2713d4;
+    font-size: 20px;
+}
+
+.logo {
+   
+    width: 30%;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.parent-text {
+   
+    width: 70%;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+li {
+    margin-left: 15px;
+    color:white;
+}
+
+.home {
+    height:91vh;
+   
+    background-image: url(../img/img2.jpg);
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.home-text {
+    width: 450px;
+   
+    text-align: center;
+    color: rgb(255, 214, 6);
+}
+
+.home-text h1 {
+    color: #2713d4;
+    font-size: 70px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0 0 10px;
+}
+
+.home-text span {
+    color: #ffffff;
+    font-weight: 600;
+    margin: 0 0 10px;
+    font-size: 24px;
+}
+
+.home-text p {
+    font-size: 26px;
+    color:#6d6d6d;
+}
+
+/* about */
+.abot-text {
+    /* background-color:red; */
+    text-align: center;
+    padding: 0 20px;
+    width: 50%;
+}
+.about-img {
+    /* background-color:red; */
+    width: 50%;
+}
+
+.about-img img {
+    width: 100%;
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin: 30px;
+}
+/* about */
